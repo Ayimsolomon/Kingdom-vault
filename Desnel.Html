@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Desney Collections</title>
+<link rel=stylesheet href=w3.css>
+
+  <script>
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+   <style type="text/css">
+     a::hover{background-color: blue; }
+
+   </style>
+</head>
+<body>
+    
+<div class="w3-sidebar w3-bar-block w3-collapse w3-card w3-animate-right" style="width:300px;right:0;" id="mySidebar">
+  <div class=""><button class="w3-bar-item w3-button w3-large w3-hide-large w3-margin" onclick="w3_close()">X</button></div>
+  <a href="indexDC.Html" class="w3-bar-item w3-button">Home</a>
+  <a href="#" class="w3-bar-item w3-button ">Male wears section</a>
+ <a href="#" class="w3-bar-item w3-button">Female wears section</a>
+ <a href="#" class="w3-bar-item w3-button">Children wears section</a>
+ <a href="#" class="w3-bar-item w3-button">MyCart</a>
+ <a href="#" class="w3-bar-item w3-button">Customer Login<a>
+ <a href="#" class="w3-bar-item w3-button">Print Reciept</a>
+ <a href="#" class="w3-bar-item w3-button">Delivery Request</a>
+ <a href="#" class="w3-bar-item w3-button">Settings</a>
+ <a href="#" class="w3-bar-item w3-button">Contact Us</a>
+ <a href="#" class="w3-bar-item w3-button">About Us</a>
+ <a href="#" class="w3-bar-item w3-button">Policy</a>
+</div>
+
+<div class="w3-main" style="margin-right:200px">
+ 
+
+ 
+ 
+ <div class="w3-blue">
+        <div class="w3-container">
+      <img src=DG-No.png height=100px width=80px class="">
+    <h3 id="h3" class="w3-cursive w3-text-black">Desnel Collections</h3>
+  </div>
+ 
+  <button class="w3-button w3-teal w3-xlarge w3-right w3-hide-large" onclick="w3_open()">&#9776;</button>
+
+</div>
+    
+
+  
+    <!---->
+    <video autoplay>
+   <source src="des.mp4" >
+        
+    </video>
+<div class="w3-display-center w3-margin w3-card-4 "style="max-width:500px">
+<div class="w3-card w3-whitesmoke w3-padding" ><p class="w3-cursive w3-xlarge" style="background: gray ;padding: 10px"><b>Make your Choice to and to your Cart.<b> </p></div>
+    <img class="mySlides w3-animate-fading" src="SH1.jpg" width=100%>
+    <img class="mySlides w3-animate-fading"  src="SH2.jpg" width=100%>
+    <img class="mySlides w3-animate-fading"  src="SH3.jpg" width=100%>
+    <img class="mySlides w3-animate-fading"  src="SH4.jpg" width=100%>
+   <img class="mySlides w3-animate-fading"  src="SH5.jpg" width=100%>
+    <img class="mySlides w3-animate-fading"  src="SH6.jpg" width=100%>
+    <img class="mySlides w3-animate-fading"  src="SH7.jpg" width=100%>
+    <img class="mySlides w3-animate-fading"  src="TS1.jpg" width=100%>
+    
+    <img class="mySlides w3-animate-fading"  src="TS2.jpg" width=100%>
+  
+    <img class="mySlides w3-animate-fading"  src="TS2.jpg" width=100%>
+  <img class="mySlides w3-animate-fading" src="TS3.jpg" style="width:100%">
+    <img class="mySlides w3-animate-fading"  src="TS4.jpg" width=100%>
+    <img class="mySlides w3-animate-fading"  src="TS5.jpg" width=100%>
+    <img class="mySlides w3-animate-fading"  src="TS6.jpg" width=100%>
+    <img class="mySlides w3-animate-fading"  src="TS7.jpg" width=100%>
+    <img class="mySlides w3-animate-fading"  src="T1.jpg" width=100%>
+    <img class="mySlides w3-animate-fading"  src="T2.jpg" width=100%>
+
+    <img class="mySlides w3-animate-fading"  src="T3.jpg" width=100%>
+
+    <img class="mySlides w3-animate-fading"  src="T4.jpg" width=100%>
+
+    <img class="mySlides w3-animate-fading"  src="T5.jpg" width=100%>
+
+    <div class="w3-container w3-margin"><button class="w3-button w3-blue w3-display-center"> VIEW</button> </div>
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 9000);    
+}
+</script>
+ <footer class="w3-container w3-blue"style=height:200px>
+     <h3>contact us </h3>
+     <div class="w3-footer ">
+         <form class="w3-form">
+             <input type="email" placeholder="Email">
+  <input type="submit"value="send">
+         </form>
+     </div>
+     
+ </footer>
+</body>
+</html>
+
+    
+    </body>
+</html>
